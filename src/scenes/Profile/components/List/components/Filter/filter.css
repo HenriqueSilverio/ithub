@@ -1,0 +1,28 @@
+/**
+ * Filter
+ */
+.filter {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.filter-text {
+  margin-right: 20px;
+}
+
+.filter-group {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+}
+
+.filter-group + .filter-group {
+  margin-left: 20px;
+}
+
+.filter-control {
+  position: absolute;
+  margin-top: .25rem;
+  margin-left: -1.25rem;
+}

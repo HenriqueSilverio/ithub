@@ -1,0 +1,40 @@
+/**
+ * Profile
+ */
+.profile-card-body {
+  display: flex;
+}
+
+.profile-body-avatar {
+  margin-right: 10px;
+}
+
+  .profile-avatar {
+    max-width: 90px;
+    padding: 1px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+  }
+
+.profile-body-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.profile-body-text {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.list-inline {
+  display: flex;
+  margin-top: 8px;
+  padding-left: 0;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+.list-inline li + li {
+  margin-left: 14px;
+}

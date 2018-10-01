@@ -1,0 +1,25 @@
+/**
+ * Search
+ */
+.form-search {
+  display: flex;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group-input {
+  width: 100%;
+}
+
+.form-group-submit {
+  align-self: flex-end;
+  margin-left: 10px;
+}
+
+@media (min-width: 414px) {
+  .form-group-input {
+    max-width: 320px;
+  }
+}
